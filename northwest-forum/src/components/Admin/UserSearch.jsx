@@ -1,7 +1,6 @@
 import { db } from "../../firebase";
 import { getDocs, collection, query, where, deleteDoc,doc,updateDoc } from "firebase/firestore";
 import { useState, useEffect } from "react";
-import {refreshPage} from "../../services/Services"
 import "./UserSearch.css"
 
 
@@ -56,7 +55,6 @@ const UserSearch = () => {
     const data = {isBlocked: null}
     const docRef = doc(db,"users",userId)
     await updateDoc(docRef, data);
-    refreshPage()
   }
 
   return (

@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 /**
- * Context object for managing authentication-related data.
+ * context object for managing authentication-related data.
  * @typedef {Object} AuthContextType
  * @property {boolean} isLoggedIn - Flag indicating whether the user is logged in.
  * @property {Function} setIsLoggedIn - Function to set the logged-in status.

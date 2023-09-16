@@ -1,7 +1,7 @@
 import { db, auth } from "../../../firebase";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { addDoc, collection } from 'firebase/firestore'
-import { AuthContext } from "../../../Context/AuthContext";
+import { AuthContext } from "../../../context/AuthContext";
 import { useContext, useState} from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

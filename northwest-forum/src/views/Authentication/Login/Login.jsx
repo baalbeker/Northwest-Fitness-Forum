@@ -1,5 +1,5 @@
 import { auth, provider } from "../../../firebase";
-import { AuthContext }  from "../../../Context/AuthContext";
+import { AuthContext }  from "../../../context/AuthContext";
 import { signInWithEmailAndPassword, signInWithPopup, onAuthStateChanged, signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { useState} from "react";

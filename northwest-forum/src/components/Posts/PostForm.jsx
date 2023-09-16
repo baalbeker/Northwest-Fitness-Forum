@@ -1,7 +1,6 @@
 import { useState, useContext } from "react";
 import { addDoc, collection,serverTimestamp } from "firebase/firestore";
 import { db, auth } from "../../firebase";
-import { refreshPage } from "../../services/Services";
 import { AuthContext } from "../../context/AuthContext";
 import { ToastContainer, toast } from "react-toastify";
 import PropTypes from 'prop-types';
@@ -38,7 +37,6 @@ const PostForm = ({ categoryName, setIsOpen }) => {
       });
       setTitle("");
       setPostText("");
-      refreshPage();
     } else if (postText.length < 32 || postText.length > 8192) {
       toast.error("Post should be between 32 and 8192 symbols !");
       setPostText("");

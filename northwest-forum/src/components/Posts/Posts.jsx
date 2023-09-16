@@ -2,7 +2,6 @@ import { useState, useEffect, useContext } from "react";
 import { auth, db } from "../../firebase";
 import {getDocs,collection,where,query,deleteDoc,doc,} from "firebase/firestore";
 import { useParams, useNavigate } from "react-router-dom";
-import { refreshPage } from "../../services/Services";
 import { toast } from "react-toastify";
 import { AuthContext } from "../../context/AuthContext";
 import PostForm from "./PostForm";
@@ -29,7 +28,6 @@ const Posts = () => {
   const deletePost = async (postId) => {
     const postRef = doc(db, "posts", postId);
     await deleteDoc(postRef);
-    refreshPage();
   };
 
   const handleGoBack = () => {

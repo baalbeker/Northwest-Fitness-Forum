@@ -1,8 +1,7 @@
 import { updateEmail } from "firebase/auth";
 import { useState, useContext } from "react";
 import { upload, auth } from "../../firebase";
-import { AuthContext } from "../../Context/AuthContext";
-import { refreshPage } from "../../services/Services";
+import { AuthContext } from "../../context/AuthContext";
 import "./Account.css";
 
 const Account = () => {
@@ -34,6 +33,10 @@ const Account = () => {
       setEmail(changedEmail);
       setShowEmailInputForm(false);
     });
+  }
+
+  function refreshPage() {
+    window.location.reload(false);
   }
 
   return (

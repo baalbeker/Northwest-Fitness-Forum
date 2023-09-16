@@ -1,4 +1,4 @@
-import { postLike, postDislike, deletePost } from "../../../services/PostServices";
+import { postLike, postDislike, deletePost } from "../../../services/Postservices";
 import PropTypes from 'prop-types';
 
 const PostContainer = ({ post, showEditInputForm, handleShowEditInputForm, changedPost, setChangedPost, editPost, userID, isAdmin, setPost }) => {

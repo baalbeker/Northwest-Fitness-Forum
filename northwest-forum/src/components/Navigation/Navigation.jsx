@@ -3,7 +3,7 @@ import { FaHome, FaNewspaper, FaInfoCircle, FaUser } from "react-icons/fa";
 import { useState, useEffect, useRef } from "react";
 import { HiOutlineLogout } from "react-icons/hi";
 import { onAuthStateChanged } from "firebase/auth";
-import { AuthContext } from "../../Context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 import { auth } from "../../firebase";
 import { useContext } from "react";
 import defaultUserPhoto from "../../assets/images/default.png";

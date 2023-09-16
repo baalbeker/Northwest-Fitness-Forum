@@ -1,4 +1,4 @@
-import { handleCommentLike, handleCommentDislike, deleteComment } from "../../../services/PostServices";
+import { handleCommentLike, handleCommentDislike, deleteComment } from "../../../services/Postservices";
 import PropTypes from 'prop-types';
 
 

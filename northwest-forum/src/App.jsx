@@ -4,7 +4,7 @@ import { signOut } from "firebase/auth";
 import { getDocs, collection, where, query } from "firebase/firestore";
 import { auth, db } from "./firebase";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "./Context/AuthContext";
+import { AuthContext } from "./context/AuthContext";
 import "./App.css";
 
 import Home from "./views/Home/Home";

@@ -5,7 +5,6 @@ import { AuthContext } from "../../Context/AuthContext";
 import { refreshPage } from "../../services/Services";
 import "./Account.css";
 
-
 const Account = () => {
   const { email, setEmail, name, photoURL, userID } = useContext(AuthContext);
   const [changedEmail, setChangedEmail] = useState("");

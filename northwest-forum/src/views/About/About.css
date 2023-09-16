@@ -1,0 +1,78 @@
+.member-content {
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: auto;
+  margin-top: -20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.personcolumn {
+  flex: 0 0 auto; 
+  width: calc(33.33% - 16px); 
+  padding: 0 8px;
+  margin-right: 16px; 
+  max-width: 300px;
+}
+
+.personcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  height: 550px;
+  width: 100%;
+}
+
+.personcard img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+
+.about-section {
+  position: relative;
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  max-height: 150px;
+  top: 70px
+}
+
+.personcontainer {
+  padding: 0 16px;
+}
+
+.personcontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.about-button:hover {
+  background-color: #555;
+}
+.team-logo{
+  width: 400px;
+  margin: 80px 0px 20px 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

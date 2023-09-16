@@ -1,0 +1,54 @@
+
+.mostcommented {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.mostcommented > div:first-child {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mostcommentedlist {
+  margin: 0;
+  padding: 0;
+}
+
+.mostcommentedlist li {
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.mostcommentedlist li:hover {
+  background-color: #f5f5f5;
+}
+
+.mostcommentedlist li a {
+  color: rgb(96, 94, 95);
+  align-items: center;
+}
+
+.mostcommentedlist li a:hover {
+  color: blueviolet;
+}
+
+.commented-icon {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assets/images/comment.png");
+    background-size: contain;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  .commented-count {
+    float: right;
+    margin-left: 5px;
+    color:darkgreen ;
+  }

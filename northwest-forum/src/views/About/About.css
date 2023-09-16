@@ -3,17 +3,9 @@
   flex-wrap: nowrap; 
   overflow-x: auto;
   margin-top: -20px;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: transparent;
   justify-content: center;
   border-radius: 10px;
-}
-
-.personcolumn {
-  flex: 0 0 auto; 
-  width: calc(33.33% - 16px); 
-  padding: 0 8px;
-  margin-right: 16px; 
-  max-width: 300px;
 }
 
 .personcard {
@@ -42,6 +34,7 @@
 
 .personcontainer {
   padding: 0 16px;
+  color: white;
 }
 
 .personcontainer::after, .row::after {
@@ -55,11 +48,12 @@
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  color: black;
+  background-color: lightblue;
+  border-radius: 9px;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 30%;
 }
 
 .about-button:hover {

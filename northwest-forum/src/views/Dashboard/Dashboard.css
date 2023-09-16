@@ -1,0 +1,40 @@
+.dashboard {
+    margin-top: 100px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 100px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+  }
+  
+  .dashboard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dashboard li {
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .dashboard li a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-decoration: none;
+    
+  }
+  
+  .dashboard li:hover a {
+    color: rgb(146, 69, 222);
+  }
+  

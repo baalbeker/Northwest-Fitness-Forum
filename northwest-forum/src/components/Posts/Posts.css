@@ -1,0 +1,268 @@
+.categoryPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.cat-name {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255);
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 23px;
+  max-width: 600px;
+  overflow-wrap: break-word;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.singlepost {
+  max-width: 600px;
+  overflow-wrap: break-word;
+  position: relative;
+  background-color: rgba(255, 255, 255);
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.searchingpost {
+  position: relative;
+  left: 66px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.poststitle {
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#deletePost,
+#viewpostbutton {
+  position: relative;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#deletePost {
+  background-color: #d9534f;
+  color: #fff;
+  margin-right: 10px;
+}
+
+#deletePostADmin {
+  background-color: #d94fc4;
+  color: #fff;
+  margin-right: 30px;
+}
+
+#deletePost:hover {
+  background-color: #c9302c;
+}
+
+#viewpostbutton {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+#viewpostbutton:hover {
+  background-color: #286090;
+}
+
+.postText {
+  font-size: 16px;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+}
+
+#goback {
+  position: fixed;
+  width: 90px;
+  top: 15%;
+  left:90%;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #337ab7;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#goback:hover {
+  background-color: #286090;
+}
+
+.addpostbutton {
+  margin-top: 30px;
+}
+
+#formbutton {
+  position: fixed;
+  width: 90px;
+  top: 27%;
+  left:90%;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+#formbutton:hover {
+  background-color: #4cae4c;
+}
+
+#searchbutton {
+  position: fixed;
+  width: 90px;
+  top: 20%;
+  left:10%;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.searchform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 10px;
+}
+
+.searchform input[type="search"] {
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.searchform select {
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.searchform span {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.filtersort {
+  display: flex;
+}
+
+.commentform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formincomments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#txtareacomments {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  resize: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#txtareacomments:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#commentsubmit {
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#commentsubmit:hover {
+  background-color: #0062cc;
+}
+
+.postUsername {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 5px;
+}
+
+.post-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 5px;
+  color: grey;
+}

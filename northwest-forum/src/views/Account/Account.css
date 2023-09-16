@@ -1,0 +1,109 @@
+.accountcontainer {
+  margin-top: 90px;
+  border: #ccc;
+  background-color: #f4f0f0d8;
+  border-radius: 5px;
+  width: 500px;
+  height: 470px;
+}
+
+.avatarcontainer {
+  position: relative;
+  top: 20px;
+  right: 10px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.accinfo {
+  margin-top: 20px;
+  color: white;
+}
+
+.accinfo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.accinfo h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+
+}
+
+.avatarinputform {
+  display: block;
+  margin-left: 93px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  border-bottom: 2px solid #ccc;
+  padding: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+.avatarinputform:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+}
+
+#uploadbutton {
+  position: relative;
+  top: -5px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+}
+
+#changebutton {
+  position: relative;
+  top: -5px;
+  background-color: rgb(44, 125, 238);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+}
+
+.changeemail button {
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.changeemail button:hover {
+  background-color: #e1e1e1;
+}
+
+.changebutton button:hover {
+  background-color: #e1e1e1;
+}
+
+.emailinputform {
+  margin-right: 20px;
+  height: 25px;
+}

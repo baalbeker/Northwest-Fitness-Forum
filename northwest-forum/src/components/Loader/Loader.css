@@ -1,0 +1,25 @@
+.Loader {
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: -30px;
+}
+.Loader:after {
+  content: " ";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid aqua;
+  border-color: aqua transparent aqua transparent;
+  animation: Loader 1.2s linear infinite;
+}
+@keyframes Loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

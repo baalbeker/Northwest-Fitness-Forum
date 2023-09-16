@@ -1,0 +1,92 @@
+.homecontainer {
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.home-info {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.counts {
+  display:flex;
+  grid-gap: 20px;
+  font-size: 25px;
+}
+
+.current-posts {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.current-posts h1,
+.current-users h1,
+.home-info h2 {
+  color: lightseagreen;
+}
+
+.current-users {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.calculator,
+.calorie-calculator {
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.calculator input[type="number"],
+.calorie-calculator input[type="number"],
+.calculator select,
+.calorie-calculator select {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.calculator label,
+.calorie-calculator label {
+  margin: 10px;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.calculator button,
+.calorie-calculator button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.calculator p,
+.calorie-calculator p {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
